@@ -1,7 +1,7 @@
-name: "Jekyll true minimal theme"
+name: "Keith Williams - Portfolio"
 description: "Lightweight theme"
-
-url: '' 
+google: "151745455-1"
+url: 'https://kaw393939.github.io'
 baseurl: ''
 
 markdown: kramdown
