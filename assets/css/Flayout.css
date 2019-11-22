@@ -7,17 +7,29 @@
     line-height: 30px;
     font-family: SansSerif, "Helvetica Neue", Helvetica;
 }
+#logo img {
+    height: 116px;
 
-#Fcontent {
+}
+#article_text {
     padding-left: 20px;
     padding-right: 20px;
 }
+#top {
+    height: 120px;
+    line-height: 120px
+}
 
+#sidebar img {
+    padding: 20px;
+}
+#sidebar_image {
+    margin-right: auto;
+    margin-left: auto;
+    width: 320px;
+}
 .floatLeft {
     float: left;
-}
-.floatRight{
-    float: right;
 }
 .grBig {
     width: 593px;
@@ -25,4 +37,3 @@
 .grSmall {
     width: 367px;
 }
-

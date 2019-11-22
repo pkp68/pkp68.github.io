@@ -18,11 +18,18 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 {% include navbar.html %}
-<div id="wrapper">
-    <div id="Fcontent">
+<div id="content"class="floatLeft grBig">
+    <div id="article_heading">
+        <h1>Homepage</h1>
+    </div>
+    <div id="article_text">
         {{content}}
     </div>
-    {% include sidebar.html %}
+</div>
+<div id="sidebar" class="floatLeft grSmall">
+    <div id="sidebar_image">
+        <img src="img/Me.jpg" height="300" width="300"/>
+    </div>
 </div>
 <footer id="footer">{% include footer.html %}</footer>
 </body>
