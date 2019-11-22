@@ -1,0 +1,25 @@
+#wrapper {
+    width: 960px;
+    border: black thin;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: SansSerif, "Helvetica Neue", Helvetica;
+}
+
+#Fcontent {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.floatLeft {
+    float: left;
+}
+.grBig {
+    width: 593px;
+}
+.grSmall {
+    width: 367px;
+}
+
