@@ -16,6 +16,9 @@
 .floatLeft {
     float: left;
 }
+.floatRight{
+    float: right;
+}
 .grBig {
     width: 593px;
 }
