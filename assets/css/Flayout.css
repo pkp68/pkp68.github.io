@@ -8,7 +8,7 @@ html, body {
 }
 
 #wrapper {
-    width: 960;
+    width: 960px;
     border: black thin;
     margin-left: auto;
     margin-right: auto;
@@ -20,10 +20,7 @@ html, body {
     padding-bottom: 100px;
     padding-top: 50px;
 }
-#logo img {
-    height: 116px;
 
-}
 #article_text {
     padding-left: 20px;
     padding-right: 20px;
