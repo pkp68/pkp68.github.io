@@ -8,7 +8,7 @@ html, body {
 }
 
 #wrapper {
-    width: auto;
+    width: 960;
     border: black thin;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@ html, body {
     min-height:100%;
     overflow: auto;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #logo img {
     height: 116px;
@@ -27,6 +27,9 @@ html, body {
 #article_text {
     padding-left: 20px;
     padding-right: 20px;
+}
+#article_heading{
+    padding: 20px;
 }
 #top {
     height: 120px;
