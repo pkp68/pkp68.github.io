@@ -22,10 +22,11 @@ body {
     font-size: 18px;
     line-height: 30px;
     font-family: SansSerif, "Helvetica Neue", Helvetica;
-    min-height:100%;
     overflow: auto;
     padding-bottom: 100px;
     padding-top: 50px;
+    min-height: 100%;
+    position: relative
 }
 
 #article_text {
