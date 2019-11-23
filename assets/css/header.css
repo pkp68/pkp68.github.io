@@ -1,4 +1,5 @@
 #heroH {
+    width: 100%;
     top: 14px;
     padding: 40px;
     margin-left: auto;
@@ -6,6 +7,7 @@
     background: #0086B3;
     color: white;
     font-size: 30px;
+    height: 530px;
 }
 #heroContent{
     width: 960px;
