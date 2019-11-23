@@ -1,5 +1,8 @@
 .hero-image {
-    background-image: url("technology.jpg");
+    background-image: url('http://rumbleasia.com/wp-content/uploads/2013/05/technology1-960x300.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .hero-text {
     text-align: center;
