@@ -3,7 +3,7 @@ body, html{
 }
 
 .hero-cont {
-    background-image: url("Tech1.jpg")
+    background-image: url("Tech1.jpg");
     height:50%;
     background-position: center;
     background-repeat: no-repeat;
