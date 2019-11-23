@@ -5,6 +5,7 @@
     height: 300px;
     background-repeat: no-repeat;
     position: absolute;
+    background-size: 100% 100%;
 }
 .hero-text {
     text-align: center;
