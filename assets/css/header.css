@@ -1,4 +1,4 @@
-header {
+#heroH {
     top: 14px;
     padding: 40px;
     margin-left: auto;
@@ -6,5 +6,19 @@ header {
     background: #0086B3;
     color: white;
     font-size: 30px;
+}
+#heroContent{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.floatLeft{
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.heroText{
+    width: 620px;
 }
