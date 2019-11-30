@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{site.url}}/assets/css/footer.css" type="text/css">
     <link rel="stylesheet" href="{{site.url}}/assets/css/Flayout.css" type="text/css">
     <link rel="stylesheet" href="{{site.url}}/assets/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     {% if site.highlighter %}
     <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
@@ -23,11 +25,7 @@
 <div id="content"class="floatLeft grBig">
     {{content}}
 </div>
-<div id="sidebar" class="floatLeft grSmall">
-    <div id="sidebar_image">
-        <img src="../img/Connor.jpg" height="328" width="300"/>
-    </div>
-</div>
+    {% include sidebar.html %}
     {% include footer.html %}
 </div>
 </body>
