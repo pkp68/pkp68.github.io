@@ -54,8 +54,10 @@ body {
     width: 367px;
 }
 
-#sidebar{
+.icon-bar{
     padding:20px;
+    width: 367px;
+    float: left;
 }
 .fa {
     display: block;
