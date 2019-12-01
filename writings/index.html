@@ -3,7 +3,7 @@ layout: Flayout
 ---
 <div id="article_heading">
     <h1>Writing</h1>
-</div>\
+</div>
 <body>
 <div id="article_text">
     <h2>Git/Linux tutorial </h2>
@@ -32,101 +32,101 @@ layout: Flayout
         <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" rel="nofollow">
             gitFlow Tutorial</a></p>
     <h3>Git Features</h3>
-    <ul>
-        <li>Repository
+    <ol>
+        <dt>Repository
             <ol>
-                <li>The main basic function of GitHub is repositories. A repository if where the files for a single
-                    project get stored, and they are easily accessed through a specific URL.</li>
-                <li>The command for this is git init, this will turn a directory into an empty repository.</li>
+                <dt>The main basic function of GitHub is repositories. A repository if where the files for a single
+                    project get stored, and they are easily accessed through a specific URL.</dt>
+                <dt>The command for this is git init, this will turn a directory into an empty repository.</dt>
             </ol>
-        </li>
-        <li>Clone
+        </dt>
+        <dt>Clone
             <ol>
-                <li>As for cloning, this function as stated before is downloading a copy of the source code, or text.
+                <dt>As for cloning, this function as stated before is downloading a copy of the source code, or text.
                     The copy on your computer will sync with the original file on GitHub, practically acting as a backup
 
-                    for your project.</li>
-                <li>The command for this is git clone &lt;remote_URL&gt;</li>
+                    for your project.</dt>
+                <dt>The command for this is git clone &lt;remote_URL&gt;</dt>
             </ol>
-        </li>
-        <li>Fork
+        </dt>
+        <dt>Fork
             <ol>
-                <li>A fork is a copy of a repository, this allows someone to make changes that will not go directly to
-                    the repository.</li>
-                <li>Forking uses the same command as cloning. On github there is a fork button seperate from the clone
-                    button, but in bash they are they do the same thing.</li>
+                <dt>A fork is a copy of a repository, this allows someone to make changes that will not go directly to
+                    the repository.</dt>
+                <dt>Forking uses the same command as cloning. On github there is a fork button seperate from the clone
+                    button, but in bash they are they do the same thing.</dt>
             </ol>
-        </li>
-        <li>Branch
+        </dt>
+        <dt>Branch
             <ol>
-                <li>The connections between all the pushing and pulling is documented as branches. These branches can
+                <dt>The connections between all the pushing and pulling is documented as branches. These branches can
                     all be seen in the branches tab on the main page of your repository. It will show the branches that
                     you have pushed to, branches that people have committed to, and even branches that noone has
-                    committed to recently.</li>
-                <li>git branch &lt;branch_name&gt; will create a branch and branches can be viewed with git branch -a
-                    and deleted with git branch -d&lt;branch_name&gt;</li>
+                    committed to recently.</dt>
+                <dti>git branch &lt;branch_name&gt; will create a branch and branches can be viewed with git branch -a
+                    and deleted with git branch -d&lt;branch_name&gt;</dti>
             </ol>
-        </li>
-        <li>Commit
+        </dt>
+        <dt>Commit
             <ol>
-                <li>A commit is a revision or an edit on your project. This can be done by clicking the edit button on
+                <dt>A commit is a revision or an edit on your project. This can be done by clicking the edit button on
                     the top right of your repository and proceeding to edit your document and hit commit changes on the
-                    bottom left when finished. This will document the time of changes and what changes.</li>
-                <li>The command for this is git commit -m "Commit Message"</li>
+                    bottom left when finished. This will document the time of changes and what changes.</dt>
+                <dt>The command for this is git commit -m "Commit Message"</dt>
             </ol>
-        </li>
-        <li>Merge
+        </dt>
+        <dt>Merge
             <ol>
-                <li>When looking at all the branches you can put all the seperate branches into on single branch.
+                <dt>When looking at all the branches you can put all the seperate branches into on single branch.
                     This can be useful when there are so many branches created it is hard to keep track of. The basic
-                    understanding is taking all these different committs and logging them all together. This is a merge.</li>
-                <li>The command is git merge &lt;branch_name&gt;</li>
+                    understanding is taking all these different committs and logging them all together. This is a merge.</dt>
+                <dt>The command is git merge &lt;branch_name&gt;</dt>
             </ol>
-        </li>
-        <li>Checkout
+        </dt>
+        <dt>Checkout
             <ol>
-                <li>he git checkout command lets you navigate between the branches created by git branch . Checking out
+                <dt>he git checkout command lets you navigate between the branches created by git branch . Checking out
                     a branch updates the files in the working directory to match the version stored in that branch,
-                    and it tells Git to record all new commits on that branch.</li>
-                <li>The command is git checkout &lt;branch_name&gt; and git checkout -b &lt;branch_name&gt;
-                    checks out and creates a new branch.</li>
+                    and it tells Git to record all new commits on that branch.</dt>
+                <dt>The command is git checkout &lt;branch_name&gt; and git checkout -b &lt;branch_name&gt;
+                    checks out and creates a new branch.</dt>
             </ol>
-        </li>
-        <li>Push
+        </dt>
+        <dt>Push
             <ol>
-                <li>Pushing sends your local commits to the remote repository.</li>
-                <li>the command is git push</li>
+                <dt>Pushing sends your local commits to the remote repository.</dt>
+                <dt>the command is git push</dt>
             </ol>
-        </li>
-        <li>Pull
+        </dt>
+        <dt>Pull
             <ol>
-                <li>Pull will get the latest version of the repository. Gets the changes from remote repository
-                    and makes it local</li>
-                <li>The command for this is git pull &lt;branch_name&gt;</li>
+                <dt>Pull will get the latest version of the repository. Gets the changes from remote repository
+                    and makes it local</dt>
+                <dt>The command for this is git pull &lt;branch_name&gt;</dt>
             </ol>
-        </li>
-        <li>Remote Add/Remove/Show
+        </dt>
+        <dt>Remote Add/Remove/Show
             <ol>
-                <li>To add a remote repository you can use the command git remote &lt;remote_name&gt;&lt;remote_URL&gt;</li>
-                <li>git remote remove origin is how you remove the remote repository connection, with older versions
-                    it is git remote rm origin</li>
-                <li>you can use git remote -v to show the urls stored with the remote names</li>
+                <dt>To add a remote repository you can use the command git remote &lt;remote_name&gt;&lt;remote_URL&gt;</dt>
+                <dt>git remote remove origin is how you remove the remote repository connection, with older versions
+                    it is git remote rm origin</dt>
+                <dt>you can use git remote -v to show the urls stored with the remote names</dt>
             </ol>
-        </li>
-        <li>Status
+        </dt>
+        <dt>Status
             <ol>
-                <li>git status returns the current state of the repository. Can show if file is waiting on commits
-                    or if it is clean.</li>
+                <dt>git status returns the current state of the repository. Can show if file is waiting on commits
+                    or if it is clean.</dt>
             </ol>
-        </li>
-        <li>Master Branch
+        </dt>
+        <dt>Master Branch
             <ol>
-                <li>As it can be seen by the above picture, the master branch is the home base per say. The master
+                <dt>As it can be seen by the above picture, the master branch is the home base per say. The master
                     branch ponter moves forward as commits are made. It can be seen as a final product after all the
-                    commits are pushed to it.</li>
+                    commits are pushed to it.</dt>
             </ol>
-        </li>
-    </ul>
+        </dt>
+    </ol>
     <p>Here is a quick tutorial on Git:&nbsp;<a href="https://www.youtube.com/watch?v=USjZcfj8yxE" rel="nofollow">
         Git Tutorial</a></p>
     <h3>Vi, Files, and Basic Commands </h3>
@@ -137,90 +137,90 @@ layout: Flayout
         <a href="https://youtu.be/pU2k776i2Zw">Vi Tutorial</a> </p>
     <p>Here are some basic commands in the Linux operating system. Here is the key:</p>
     <ol>
-        <li>What is it?</li>
-        <li>Why use it?</li>
-        <li>How to use it?</li>
+        <dt>What is it?</dt>
+        <dt>Why use it?</dt>
+        <dt>How to use it?</dt>
     </ol>
 </div>
-<ul>
-    <li><strong>cd</strong>
+<ol>
+    <dt><strong>cd</strong>
         <ol>
-            <li>A command that changes the working directory. Stands for &lsquo;change directory&rsquo;.</li>
-            <li>To navigate directories easily and change parent directories and subdirectories</li>
-            <li>$ cd [directory] You can put absolute path, $ cd ../ move up a directory, $ cd - move to the previous directory, $ cd ~ move to home directory, $ cd ~/ [directory] move to specific directory</li>
+            <dt>A command that changes the working directory. Stands for &lsquo;change directory&rsquo;.</dt>
+            <dt>To navigate directories easily and change parent directories and subdirectories</dt>
+            <dt>$ cd [directory] You can put absolute path, $ cd ../ move up a directory, $ cd - move to the previous directory, $ cd ~ move to home directory, $ cd ~/ [directory] move to specific directory</dt>
         </ol>
-    </li>
-    <li><strong>mkdir</strong>
+    </dt>
+    <dt><strong>mkdir</strong>
         <ol>
-            <li>command in Linux allows the user to create directories. Stands for &lsquo;make directory&rsquo;</li>
-            <li>To make new directories</li>
-            <li>Mkdir[directory] Creates a directory in the current location, mkdir{dir1,dir2,dir3,dir4} Creates multiple directories in the current location.</li>
+            <dt>command in Linux allows the user to create directories. Stands for &lsquo;make directory&rsquo;</dt>
+            <dt>To make new directories</dt>
+            <dt>Mkdir[directory] Creates a directory in the current location, mkdir{dir1,dir2,dir3,dir4} Creates multiple directories in the current location.</dt>
         </ol>
-    </li>
-    <li><strong>cp</strong>
+    </dt>
+    <dt><strong>cp</strong>
         <ol>
-            <li>This command is used to copy files or group of files or directory Stands for &lsquo;copy&rsquo;</li>
-            <li>To move what is copied usually a directory or file</li>
-            <li>cp [sourceFile destinationFile], cp -i warns before overwrite, cp -b: creates the backup of the destination file in the same folder</li>
+            <dt>This command is used to copy files or group of files or directory Stands for &lsquo;copy&rsquo;</dt>
+            <dt>To move what is copied usually a directory or file</dt>
+            <dt>cp [sourceFile destinationFile], cp -i warns before overwrite, cp -b: creates the backup of the destination file in the same folder</dt>
         </ol>
-    </li>
-    <li><strong>pwd</strong>
+    </dt>
+    <dt><strong>pwd</strong>
         <ol>
-            <li>See what directory you are currently in. Stands for &lsquo;Print work directory&rsquo;</li>
-            <li>To see what directory you are in</li>
-            <li>$ pwd</li>
+            <dt>See what directory you are currently in. Stands for &lsquo;Print work directory&rsquo;</dt>
+            <dt>To see what directory you are in</dt>
+            <dt>$ pwd</dt>
         </ol>
-    </li>
-    <li><strong>mv</strong>
+    </dt>
+    <dt><strong>mv</strong>
         <ol>
-            <li>It moves files or directories from one place to another. Stands for &lsquo;move&rsquo;</li>
-            <li>It supports moving single files, multiple files, and directories.</li>
-            <li>mv [source destination], mv -i Warns before overwrite, mv -f Confirmation of overwriting if overwrite protected, mv -b Backup existing file</li>
+            <dt>It moves files or directories from one place to another. Stands for &lsquo;move&rsquo;</dt>
+            <dt>It supports moving single files, multiple files, and directories.</dt>
+            <dt>mv [source destination], mv -i Warns before overwrite, mv -f Confirmation of overwriting if overwrite protected, mv -b Backup existing file</dt>
         </ol>
-    </li>
-    <li><strong>rm</strong>
+    </dt>
+    <dt><strong>rm</strong>
         <ol>
-            <li>Removes objects and directories</li>
-            <li>To delete files and directories</li>
-            <li>rm [file] rm -i ask confirmation, rm -f Confirm removal if protected</li>
+            <dt>Removes objects and directories</dt>
+            <dt>To delete files and directories</dt>
+            <dt>rm [file] rm -i ask confirmation, rm -f Confirm removal if protected</dt>
         </ol>
-    </li>
-    <li><strong>history</strong>
+    </dt>
+    <dt><strong>history</strong>
         <ol>
-            <li>Shows the whole list of commands</li>
-            <li>To show the commands used in that session</li>
-            <li>$ history</li>
+            <dt>Shows the whole list of commands</dt>
+            <dt>To show the commands used in that session</dt>
+            <dt>$ history</dt>
         </ol>
-    </li>
-    <li><strong>Home directory and ~</strong>
+    </dt>
+    <dt><strong>Home directory and ~</strong>
         <ol>
-            <li>The tilde denotes the home directory</li>
-            <li>Used at the beginning of a path to a file or directory below the user's home directory</li>
-            <li>Adding tilde roots to your home</li>
+            <dt>The tilde denotes the home directory</dt>
+            <dt>Used at the beginning of a path to a file or directory below the user's home directory</dt>
+            <dt>Adding tilde roots to your home</dt>
         </ol>
-    </li>
-    <li><strong>file paths in linux</strong>
+    </dt>
+    <dt><strong>file paths in linux</strong>
         <ol>
-            <li>Organization methods of files and folders through directories</li>
-            <li>Instead of clicking through things, it is easier to move the files by using the direct paths</li>
-            <li>~ is used for home, tab can be used to autocomplete, literally type out where file is</li>
+            <dt>Organization methods of files and folders through directories</dt>
+            <dt>Instead of clicking through things, it is easier to move the files by using the direct paths</dt>
+            <dt>~ is used for home, tab can be used to autocomplete, literally type out where file is</dt>
         </ol>
-    </li>
-    <li><strong>Using the tab key to complete file paths</strong>
+    </dt>
+    <dt><strong>Using the tab key to complete file paths</strong>
         <ol>
-            <li>Autocomplete directory path</li>
-            <li>To go faster, type whole thing faster</li>
-            <li>Use tab whne navigating and it should autofill</li>
+            <dt>Autocomplete directory path</dt>
+            <dt>To go faster, type whole thing faster</dt>
+            <dt>Use tab whne navigating and it should autofill</dt>
         </ol>
-    </li>
-    <li><strong>Using up and down arrow for history</strong>
+    </dt>
+    <dt><strong>Using up and down arrow for history</strong>
         <ol>
-            <li>Shows previous commands typed</li>
-            <li>To show history</li>
-            <li>Using the up and down arrows to scroll through</li>
+            <dt>Shows previous commands typed</dt>
+            <dt>To show history</dt>
+            <dt>Using the up and down arrows to scroll through</dt>
         </ol>
-    </li>
-</ul>
+    </dt>
+</ol>
 <h3><em>Sources:</em></h3>
 <p><a href="https://www.guru99.com/the-vi-editor.html" rel="nofollow">https://www.guru99.com/the-vi-editor.html</a></p>
 <p><a href="https://datasift.github.io/gitflow/IntroducingGitFlow.html" rel="nofollow">https://datasift.github.io/gitflow/IntroducingGitFlow.html</a></p>
