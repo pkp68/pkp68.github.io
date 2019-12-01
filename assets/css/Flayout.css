@@ -58,11 +58,12 @@ body {
     padding:20px;
 }
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    display: block;
     text-align: center;
-    text-decoration: none;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
 }
 
 /* Add a hover effect if you want */
@@ -72,7 +73,7 @@ body {
 
 }
 h2{
-    text-align: center;
+    align-self: center;
     font-size: 26px;
 }
 
