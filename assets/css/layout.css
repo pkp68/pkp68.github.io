@@ -28,6 +28,17 @@ body {
     padding-top: 100px;
     position: relative;
 }
+#callout_one, #callout_two, #callout_three {
+    float: left;
+    width: 298px;
+    height: 196px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
 
 #main {
     float: left;
